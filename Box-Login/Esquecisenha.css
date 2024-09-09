@@ -1,0 +1,35 @@
+body {
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+h4{
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 44%;
+}
+
+div1 {
+    width: -35px;
+    height: 200px;
+}
+
+h5 { 
+    width: 700px;
+    height: 28px;
+}
+
+button2 {
+    margin-left: 46%;
+}
+
+.gif {
+    width: -35px;
+    height: 200px;
+}
+

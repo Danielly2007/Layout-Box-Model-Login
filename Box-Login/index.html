@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Login</title>
+    <link rel="stylesheet" href="style.css">
+    <limk rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all/css">
+</head>
+<body> 
+    <div>
+        <element class="Login">
+         <img src="">
+
+    <h2>Cadastro</h2>
+    <h3>Email</h3>
+    <input type="email" name="" placeholder="You Email">
+    <h3>Password:</h3>
+    <input type="password" name="" placeholder="You Password">
+    <i> <element class="fas" onclick="see()"></i>
+
+        <a  href="Esquecisenha.html"><button1 type="button">Esqueci minha senha</button1></a>
+
+        <a href="Esquecisenha.html"><button type="button">LOGIN</button></a>
+
+    </div>
+    <script>
+        function see() {
+
+            var x = document.getElementById("pass");
+            if(x.type === "password") {
+                x.type = "text";
+            }
+            else {
+                x.type = "password"
+            }
+        }
+    </script>
+
+</body>
+</html>
